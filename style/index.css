@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 /*General Styles*/
 html{
@@ -47,7 +47,7 @@ h2{
     color:black;
     font-size:4rem;
     margin-left:2%;
-    margin-top:1%;
+    margin-top:3%;
 }
 button{
     color:black;
@@ -72,10 +72,17 @@ nav{
     justify-content: space-between;
 }
 .top-bar div{
-    padding-right: 5%;
+    display:flex;
+    margin-right:13%;
     padding-top: 2%;
     padding-bottom: 2%;
 }
+.top-bar button{
+    margin-top:5%;
+    font-size:2rem;
+    padding:5%;
+}
+
 
 .big-pic{
     height:60vh;
@@ -86,45 +93,47 @@ nav{
     display:flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     margin:5% 10%;
 }
 
 .big-pic button{
     border:0;
     padding: 1%;
+    margin: 0 40%;
+    border: 2px solid black;
+}
+.big-pic a{
+    
+    text-align: center;
 }
 /*middle section style*/
+.middle img{
+    width:27vw;
+}
 .middle{
-    width:23%;
     display:flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    background-color:white;
+    margin:0 2%;
+    text-align: center;;
+}
+.middle p{
+    font-size:2.5rem;
 }
 
 
-/* 
-
-
-.big-pic button{
-    font-size:2rem;
-    color:black;
-} 
-.big-pic a{
-    padding: 10%;
-    margin:1%;
-    font-size:2rem;
-    color:black;
-}
-.big-pic a:hover{
-    color:red;
-    background-color:lightpink;
-} 
-
-
-
-footer content
+/*footer content*/
 footer{
+    margin-top:2%;
+    padding:2%;
     text-align: center;
-    margin-bottom:5%;
     background-color:lightgray;
-} */
+}
+footer button{
+    border:0;
+    padding: 1%;
+    color:black;
+    border: 2px solid black;
+}
